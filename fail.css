@@ -1,0 +1,72 @@
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.background {
+  padding: 12px 50px 50px 50px;
+  border-radius: 12px;
+  box-shadow: grey 12px 4px 50px;
+}
+
+.imageofmessage > img {
+  height: 120px;
+}
+
+.cta > button {
+  background-color: #ff2a60;
+  border: none;
+  padding: 10px 70px 10px 70px;
+  margin-top: 30px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  transition: 0.2s;
+}
+
+.cta > button:hover {
+  background-color: #ff2a60;
+  border: none;
+  padding: 10px 70px 10px 70px;
+  margin-top: 30px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  color: black;
+  transition: 0.9s;
+}
+
+.failnext {
+  margin: 40px;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.nextpage a {
+  text-decoration: none;
+  color: white;
+  background-color: #05e5a8;
+  padding: 6px 10px 6px 10px;
+  border-radius: 12px;
+}
